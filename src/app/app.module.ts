@@ -12,6 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatNativeDateModule } from '@angular/material';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { LOCALE_ID } from '@angular/core';
+import { ChartsModule } from 'ng2-charts/ng2-charts';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +29,7 @@ import { LOCALE_ID } from '@angular/core';
     FormsModule,
     ReactiveFormsModule,
     MatNativeDateModule,
+    ChartsModule
   ],
   providers: [{ provide: LOCALE_ID, useValue: "en-IN" }],
   bootstrap: [AppComponent]
